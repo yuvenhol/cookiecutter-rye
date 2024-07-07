@@ -1,11 +1,18 @@
-.venv/
-
-# python compiled / optimized
+# python generated files
 __pycache__/
-*.py[cod]
-*$py.class
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 
-# maxos
-.DS_Store
+*.lock
 
-# other
+# venv
+.venv
+
+.idea
+
+.python-version
+
+.pytest_cache
