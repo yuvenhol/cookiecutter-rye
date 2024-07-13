@@ -34,3 +34,6 @@ log_cli_date_format = "%H:%M:%S"
 [tool.pyright]
 venvPath = "."
 venv = ".venv"
+
+[tool.ruff]
+line-length = 120
