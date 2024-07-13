@@ -1,23 +1,16 @@
 [project]
-dependencies = [
-]
+dependencies = []
 description = "{{ cookiecutter.project_name }}"
 name = "{{ cookiecutter.project_name }}"
 readme = "README.md"
 requires-python = ">= 3.10"
 version = "0.1.0"
-authors = [
-    { name = "yuvenhol", email = "yuvenhol@gmail.com" }
-]
+authors = [{ name = "yuvenhol", email = "yuvenhol@gmail.com" }]
 
 [build-system]
 build-backend = "hatchling.build"
 requires = ["hatchling"]
 
-[tool.rye]
-dev-dependencies = [
-]
-managed = true
 
 [tool.hatch.metadata]
 allow-direct-references = true
